@@ -1,0 +1,31 @@
+`timescale 1ns / 1ps
+module BISTbench();
+  reg clock;
+  reg rst;
+  reg en;
+  reg [ 7 : 0 ] seed;
+  reg [ 7 : 0 ] poly;
+  reg [1 : 0] func;
+  wire [7:0] in,resultIPart,tableData,addr,busy;
+  wire [7 :0] outlfsr;
+  wire [7 :0] outcircuit;
+  wire [7 :0] out;
+  initial begin
+    clock = 0;
+    func = 0;
+  end
+  MISR CUT1 (clock,rst,en,poly,seed,in,out);
+  LFSR CUT2 (Clock,rst,en,poly,seed,outlfsr);
+  fourFuncEngine	CUT3 ( clock, rst, en, func, outlfsr, busy, addr, tableData, resultIPart, in );
+  initial repeat (8) begin
+    #50 clock = ~clock;
+    {seed,poly,in} = $random();
+  end
+  initial begin
+    en = 1;
+    rst = 1;
+    #100;
+    rst = 0;
+  end
+endmodule
+

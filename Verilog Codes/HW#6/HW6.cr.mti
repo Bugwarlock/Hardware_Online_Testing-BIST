@@ -1,0 +1,80 @@
+C:/modeltech_10.1c/examples/HW#6/LFSRbench.v {1 {vlog -work HW#6 -vopt {C:\modeltech_10.1c\examples\HW#6\LFSRbench.v}
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module LFSRbench
+
+Top level modules:
+	LFSRbench
+
+} {} {}} C:/modeltech_10.1c/examples/HW#6/LFSR.v {1 {vlog -work HW#6 -vopt {C:\modeltech_10.1c\examples\HW#6\LFSR.v}
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module LFSR
+
+Top level modules:
+	LFSR
+
+} {} {}} C:/modeltech_10.1c/examples/HW#6/Multiplier.v {1 {vlog -work HW#6 -vopt {C:\modeltech_10.1c\examples\HW#6\Multiplier.v}
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module multiplier
+
+Top level modules:
+	multiplier
+
+} {} {}} C:/modeltech_10.1c/examples/HW#6/Adder.v {1 {vlog -work HW#6 -vopt {C:\modeltech_10.1c\examples\HW#6\Adder.v}
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}} C:/modeltech_10.1c/examples/HW#6/fourfunc.v {1 {vlog -work HW#6 -vopt {C:\modeltech_10.1c\examples\HW#6\fourfunc.v}
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module fourFunc
+
+Top level modules:
+	fourFunc
+
+} {} {}} C:/modeltech_10.1c/examples/HW#6/net_list_fourfunc.v {0 {vlog -work HW#6 -vopt {C:\modeltech_10.1c\examples\HW#6\net_list_fourfunc.v}
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module fourFunc_net
+** Error: C:\modeltech_10.1c\examples\HW#6\net_list_fourfunc.v(2934): near ":/": Operator only allowed in SystemVerilog.
+** Error: C:\modeltech_10.1c\examples\HW#6\net_list_fourfunc.v(2934): near ":/": syntax error, unexpected :/, expecting ')'
+
+} {4.0 6.0} {}} C:/modeltech_10.1c/examples/HW#6/BISTbench.v {1 {vlog -work HW#6 -vopt {C:\modeltech_10.1c\examples\HW#6\BISTbench.v}
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module BISTbench
+
+Top level modules:
+	BISTbench
+
+} {} {}} C:/modeltech_10.1c/examples/HW#6/fourfuncengine.v {1 {vlog -work HW#6 -vopt {C:\modeltech_10.1c\examples\HW#6\fourfuncengine.v}
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module fourFuncEngine
+
+Top level modules:
+	fourFuncEngine
+
+} {} {}} C:/modeltech_10.1c/examples/HW#6/table.v {1 {vlog -work HW#6 -vopt {C:\modeltech_10.1c\examples\HW#6\table.v}
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module Table
+
+Top level modules:
+	Table
+
+} {} {}} C:/modeltech_10.1c/examples/HW#6/Covarage.v {1 {vlog -work HW#6 -vopt C:/modeltech_10.1c/examples/HW#6/Covarage.v
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+
+} {} {}} C:/modeltech_10.1c/examples/HW#6/MISR.v {1 {vlog -work HW#6 -vopt {C:\modeltech_10.1c\examples\HW#6\MISR.v}
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module MISR
+
+Top level modules:
+	MISR
+
+} {} {}} C:/modeltech_10.1c/examples/HW#6/MISRbench.v {1 {vlog -work HW#6 -vopt {C:\modeltech_10.1c\examples\HW#6\MISRbench.v}
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module MISRbench
+
+Top level modules:
+	MISRbench
+
+} {} {}}
